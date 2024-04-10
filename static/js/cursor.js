@@ -1,7 +1,7 @@
 // const textElement = document.getElementById('intro-text');
 const textContainer = document.getElementById('text-container');
 const cursorElement = document.getElementById('cursor');
-const finalCursor = cursorElement.cloneNode();
+// textElement.innerHTML += '<br>';
 const text = "Hello, my name is Jonathan Warren, and I'm a full-stack software engineer.";
 let index = 0;
 let textElement;
@@ -23,12 +23,10 @@ function renderText() {
       } 
     else if (index === 27) {
         textElement.innerHTML = textElement.innerHTML.slice(0, -1);
-        textElement.innerHTML += '<br>';
         textElement.innerHTML += text.charAt(index) + '|';
     }
     else if (index === 55) {
         textElement.innerHTML = textElement.innerHTML.slice(0, -1);
-        textElement.innerHTML += '<br>';
         textElement.innerHTML += text.charAt(index) + '|';
     }
     else {
