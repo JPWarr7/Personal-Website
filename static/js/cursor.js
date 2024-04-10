@@ -1,6 +1,7 @@
 // const textElement = document.getElementById('intro-text');
 const textContainer = document.getElementById('text-container');
 const cursorElement = document.getElementById('cursor');
+const finalCursor = cursorElement.cloneNode();
 const text = "Hello, my name is Jonathan Warren, and I'm a full-stack software engineer.";
 let index = 0;
 let textElement;
