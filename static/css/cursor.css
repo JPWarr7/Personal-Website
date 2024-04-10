@@ -1,0 +1,48 @@
+/* #intro-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #cursor {
+    display: inline-block;
+    vertical-align: middle;
+    animation: blink 0.8s infinite;
+    position: relative; 
+    left: -6px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  } */
+
+  #text-container {
+    position: relative;
+    width:70vw;
+    display:inline-block;
+    /* text-align: top; */
+  }
+  
+  #intro-text {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  #cursor {
+    vertical-align:top;
+    animation: blink .9s infinite;
+    display: inline-block;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

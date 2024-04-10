@@ -1,0 +1,16 @@
+html{
+    font-family: IBM Plex Mono;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    flex-grow: 1;
+}
+
+.right-column {
+    flex-shrink: 0;
+}
